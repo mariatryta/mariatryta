@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maria Tryta - Freelance front end developer</title>
+    <meta name="description" content="I’m Maria a freelance front end developer &amp; digital nomad based in Europe, available to work from to anywhere with anyone! ">
+    <meta name="author" content="Maria Tryta">
+    <meta name="Copyright" content="Copyright Maria Tryyta 2018. All Rights Reserved.">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">    
+    <link href="https://fonts.googleapis.com/css?family=Padauk%7CRoboto" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- nav -->
+    <nav>
+        <div class="menu-icon">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+            <div class="main-nav">
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/#about-me">About me</a>
+                    </li>
+
+                    <li>
+                        <a href="/#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="/#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="/#contact-wrapper">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="icon-nav">
+                <a href="https://github.com/mariatryta" target="_blank">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://twitter.com/MariaTryta" target="_blank">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jaroslava-maria-tryta-62311412a/" target="_blank">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </div>
+    </nav>
+    <!-- main -->
+    <header>
+        <div class="logo-wrapper">
+            <img src="images/logo.png" alt="Maria Tryta">
+            <h1>Freelance front-end web developer</h1>
+            <a href="#" class="button button-hover modalBtn">Contact me</a>
+        </div>
+    </header>
+    <!-- about me -->
+    <section id="about-me" >
+        <div class="about-me-wrapper">
+            <h1>Who am I?</h1>
+            <p>
+                Hi, my name is Maria Tryta. I am a
+                <b>freelance front-end web developer</b> based wherever my cars stops (or when it runs out of gas). You can
+                find me pending somewhere around Europe but mostly between Prague and Copenhagen, where my family is. Before
+                I decided to choose the chaos of coding I intended to be a princess, teacher and finally HR manager, which
+                is what I studied at university. Outside of web development I love to travel (obviously) and dive into books.
+                <p>
+                    I love to work with passionate people that are ready to
+                    <b>establish their presence in the online world</b>, show what they have to offer and reach more customers.
+                    I make sure my
+                    <b>clients understand everything</b> about the process of making their place on the internet so we can create
+                    the
+                    <b>most fitting website </b>for their business.
+                </p>
+        </div>
+    </section>
+    <!-- skills -->
+    <section id="skills">
+        <div class="skills-wrapper">
+
+            <div class="skill-box">
+                <img src="images/html.png" alt="HTML">
+                    <p>HTML is the foundation of every website. I work with HTML5 to improve screen-reader accessibility and
+                        SEO and always use W3C validation.</p>
+            </div>
+
+            <div class="skill-box">
+                <img src="images/css.png" alt="CSS">
+                    <p>I prefer Materialize over Bootstrap, but can work with both. I keep up with the trends and know how to
+                        build websites with Grid and FlexBox. For animations I love animate.css. </p>
+            </div>
+
+            <div class="skill-box">
+                <img src="images/js.png" alt="JS">
+                    <p>I use Javascript to add a little bit of spark to my clients websites. I favour working with VanillaJS
+                        more than using JQuery. However, when it comes to it, I can quickly pick up where I left off and
+                        use JQuery too.
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+    <section id="portfolio">
+        <h2>Latest Projects</h2>
+        <h3><a href="https://mariatryta.github.io/Booklist/"> Booklist </a></h3>
+        <span>Simple Javascript project for adding and storing books you've read</span>
+        <h3><a href="https://mariatryta.github.io/wine-website/"> Vineyard Website </a></h3>
+        <span>HTML5 CSS3 and Javascript created website for a fictional vineyard compant</span> <h3>
+        <a href="https://mariatryta.github.io/Number-Guesser"> Number Guesser </a></h3>
+        <span>Javascipt based game that makes you guess number it "thinks of".</span> <h3><a href="https://mariatryta.github.io/BookLibrary/"> Book Library </a></h3>
+        <span>Currently worked on Javascript based Book library </span> <h3>
+        <a href="https://mariatryta.github.io/Weather--App/"> Javascript Weather App </a></h3>
+        <span>Simple Javascript weather app using the Wunderground API.</span>
+    </section>
+    <!-- contact form -->
+    <div id="modal">
+        <div id="contact">
+            <div class="modal-header">
+                <span class="closeBtn">&times;</span>
+                <h2>Contact me</h2>
+            </div>
+            <div class="border-contact">
+
+                <div class="form">
+                    <form action="https://formspree.io/mariatryta@gmail.com" method="POST">
+                        <input type="text" name="name" placeholder="Your Name">
+                        <input type="email" name="email" placeholder="Your Email">
+                        <input type="subject" name="subject" placeholder="Subject">
+                        <textarea name="message" placeholder=" Message"></textarea>
+                        <button type="submit">Pop me a message :)</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of contact form  -->
+
+    <!--contact section -->
+    <section id="contact-wrapper">
+
+        <div class="contact-container">
+            <img src="images/portrait.jpg" alt="">
+            <div class="text-content">
+                <h2>Pop me a message</h2>
+                <p>
+                    Do you have any questions about your project? Maybe, you've already made your decision to hire me and need a quote?
+                    <br> Don't hesitate and
+                    <b>use the contact button</b> to get in touch with me and start working together!
+                </p>
+                <div class="button-wrapper">
+                    <a href="#" class="button-contact button-hover modalBtn">Contact me</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- <script src="js/modal.js"></script> -->
+    <script src="/assets/js/app.js"></script>
+</body>
+
+</html>
